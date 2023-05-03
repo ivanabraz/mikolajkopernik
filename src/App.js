@@ -10,6 +10,7 @@ import Home from './pages/Home';
 
 // COMPONENTS
 import NavBar from './components/NavBar/NavBar';
+import Spin from './pages/Spin';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
                 <NavBar/>
                 <Routes>
                     <Route index element={ <Home /> }/>
+                    <Route path='spin' element={ <Spin /> }/>
                 </Routes>
             </BrowserRouter>
         </NavBarProvider>
