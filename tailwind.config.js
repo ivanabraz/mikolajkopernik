@@ -19,6 +19,7 @@ module.exports = {
             'sans': ['"Work Sans"'],
             'serif': ['"EB Garamond"'],
             'body': ['"Work Sans"'],
+            'goudy': ['Goudy'],
         },
     },
     plugins: [

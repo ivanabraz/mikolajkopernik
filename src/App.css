@@ -14,14 +14,11 @@ body {
   color: #141413 !important;
 };
 
-@font-face {
-  font-family: 'Goudy Initialen';
-  font-weight: 400;
-  font-style: normal;
-  src: url("./fonts/goudy-initialen.ttf") format('truetype');
-}
-
-
-.font-goudy {
-  font-family: 'Goudy Initialen' !important;
+@layer base {
+  @font-face {
+    font-family: "Goudy";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./fonts/goudy-initialen.ttf") format('truetype');
+  }
 }

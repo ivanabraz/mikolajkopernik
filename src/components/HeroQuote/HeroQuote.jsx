@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 const HeroQuote = (HeroTextProps) => {
     return (
-        <div className={`${HeroTextProps.backgroundColor} flex flex-row justify-center items-center text-center w-full h-fit py-20 px-10 text-nwhite`}>
+        <div className={`${HeroTextProps.backgroundColor} flex flex-row justify-center items-center text-center w-full h-fit text-nwhite
+        p-16 xs:p-16 sm:p-16 md:p-40 `}>
             <motion.div
             initial={{ scale: 0 }} whileInView={{ scale: 1 }}
             viewport={{ once: true }}

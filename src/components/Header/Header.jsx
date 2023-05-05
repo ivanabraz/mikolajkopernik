@@ -33,7 +33,7 @@ const illustrations = {
             imgAlt: "Imagen de estrella"
         },
         {   imgSrc: Ribbon, 
-            imgClassName: "z-10 w-[95%] xs:w-[95%] sm:w-[70%] md:w-[40%] lg:w-[25%] absolute m-auto top-[95%] right-0 left-0 mr-auto ml-auto animate-[bounce_8s_ease-in-out_infinite]", 
+            imgClassName: "z-10 w-[95%] xs:w-[95%] sm:w-[70%] md:w-[40%] lg:w-[25%] absolute m-auto top-[90%] right-0 left-0 mr-auto ml-auto animate-[bounce_8s_ease-in-out_infinite]", 
             imgAlt: "Banner 550 aniversario"
         },
         {   imgSrc: Star2, 
