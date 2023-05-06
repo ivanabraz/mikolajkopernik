@@ -7,7 +7,6 @@ import { NavBarProvider } from './context/NavBarContext';
 
 // PAGES
 import Home from './pages/Home';
-import HomeTest from './pages/HomeTest';
 
 
 // COMPONENTS
