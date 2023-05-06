@@ -16,7 +16,7 @@ const NavBarList = () => {
             { namePl: 'Biografia', nameEs: "Biografía", href: '/#biografia', icon:'', target:'_self' },
             { namePl: 'Odkrycia naukowe', nameEs: "Descubrimientos científicos", href: '/#odkrycia', icon:'', target:'_self' },
             { namePl: 'Kontekst historyczny', nameEs: "Contexto histórico", href: '/#kontekst', icon:'', target:'_self' },
-            { namePl: 'Ciekawostki', nameEs: "Curiosidades", href: '/#ciekawostki', icon:'', target:'_self' },
+            // { namePl: 'Ciekawostki', nameEs: "Curiosidades", href: '/#ciekawostki', icon:'', target:'_self' },
         ],
     }
     

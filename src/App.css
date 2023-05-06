@@ -12,6 +12,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   color: #141413 !important;
+  overflow-x: hidden;
 };
 
 @layer base {
@@ -22,3 +23,148 @@ body {
     src: url("./fonts/goudy-initialen.ttf") format('truetype');
   }
 }
+
+.texto-path-box--styles{
+  overflow: hidden !important;
+}
+
+
+/* Marquee */
+.marquee-container:not(.horizontal)::before {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-container:not(.horizontal)::after {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-container.horizontal::before {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-container.horizontal::after {
+  background-color: transparent !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+.marquee-item{
+  display: flex;
+  flex-direction: column !important;
+  position: relative !important;
+}
+
+
+/* Animations */
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+.animate-spin {
+  animation: spin 10s linear infinite;
+}
+.animate-spin-speed-15s {
+  animation: spin 15s linear infinite;
+}
+.animate-spin-speed-25s {
+  animation: spin 25s linear infinite;
+}
+.animate-spin-speed-35s {
+  animation: spin 35s linear infinite;
+}
+.animate-spin-speed-45s {
+  animation: spin 45s linear infinite;
+}
+.animate-spin-speed-55s {
+  animation: spin 55s linear infinite;
+}
+.animate-spin-speed-65s {
+  animation: spin 65s linear infinite;
+}
+
+@-moz-keyframes spin-acw {
+  from { -moz-transform: rotate(360deg); }
+  to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin-acw {
+  from { -webkit-transform: rotate(360deg); }
+  to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin-acw {
+  from {transform:rotate(360deg);}
+  to {transform:rotate(0deg);}
+}
+.animate-spin-acw-speed-15s {
+  animation: spin-acw 15s linear infinite;
+}
+.animate-spin-acw-speed-25s {
+  animation: spin-acw 25s linear infinite;
+}
+.animate-spin-acw-speed-35s {
+  animation: spin-acw 35s linear infinite;
+}
+.animate-spin-acw-speed-45s {
+  animation: spin-acw 45s linear infinite;
+}
+.animate-spin-acw-speed-55s {
+  animation: spin-acw 55s linear infinite;
+}
+.animate-spin-acw-speed-65s {
+  animation: spin-acw 65s linear infinite;
+}
+
+
+@-moz-keyframes wiggle {
+  0% { -moz-transform: rotate(-10deg); }
+  50% { -moz-transform: rotate(10deg); }
+  100% { -moz-transform: rotate(-10deg); }
+}
+@-webkit-keyframes wiggle {
+  0% { -webkit-transform: rotate(-10deg); }
+  50% { -webkit-transform: rotate(10deg); }
+  100% { -webkit-transform: rotate(-10deg); }
+}
+@keyframes wiggle {
+  0% {transform:rotate(-10deg);}
+  50% {transform:rotate(10deg);}
+  100% {transform:rotate(-10deg);}
+}
+.animate-wiggle {
+  animation: wiggle 7s ease-in-out infinite;
+}
+.animate-wiggle-speed-10s {
+  animation: wiggle 10s linear infinite;
+}
+.animate-wiggle-speed-15s {
+  animation: wiggle 15s linear infinite;
+}
+.animate-wiggle-speed-25s {
+  animation: wiggle 25s linear infinite;
+}
+.animate-wiggle-speed-35s {
+  animation: wiggle 35s linear infinite;
+}
+.animate-wiggle-speed-45s {
+  animation: wiggle 45s linear infinite;
+}
+.animate-wiggle-speed-55s {
+  animation: wiggle 55s linear infinite;
+}
+.animate-wiggle-speed-65s {
+  animation: wiggle 65s linear infinite;
+}
+

@@ -22,7 +22,6 @@ const App = () => {
                 <NavBar/>
                 <Routes>
                     <Route index element={ <Home /> }/>
-                    <Route path='hometest' element={ <HomeTest /> }/>
                     <Route path='spin' element={ <Spin /> }/>
                 </Routes>
             </BrowserRouter>
