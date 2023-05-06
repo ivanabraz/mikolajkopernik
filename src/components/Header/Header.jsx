@@ -45,7 +45,7 @@ const illustrations = {
 
 const Header = () => {
     return (
-            <div className="relative w-full h-screen overflow-hidden flex flex-col justify-between">
+            <div className="relative h-screen overflow-hidden flex flex-col justify-between">
                 <p className="text-center text-nblack font-serif italic font-medium
                 mt-10 xs:mt-10 sm:mt-10 md:mt-5
                 text-[7rem] xs:text-[7rem] sm:text[7rem] md:text-[12rem] lg:text-[9rem] xl:text-[10rem] 2xl:text-[11rem]">
