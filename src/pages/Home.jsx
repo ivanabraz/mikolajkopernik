@@ -11,6 +11,7 @@ import Heliocentrism from "../illustrations/heliocentrism.svg"
 import Odkrycia2 from "../illustrations/odkrycia-2.svg"
 import Kontekst from "../illustrations/kontekst.svg"
 import Kontekst2 from "../illustrations/kontekst-2.svg"
+import Podcasts from '../components/Podcasts/Podcasts';
 
 
 const Home = () => {
@@ -174,7 +175,10 @@ const Home = () => {
             <HeroQuote titlePl="“Nic piękniejszego nad niebo, które przecież ogarnia wszystko, co piękne”" 
                 titleEs="“Nada más bello que el cielo, que, al fin y al cabo, abarca todo lo bello”"
                 author="— Mikołaj Kopernik" 
-                backgroundColor="bg-nblack"/>
+                backgroundColor="bg-nblack"
+            />
+
+            <Podcasts/>
 
             <TextoPathBox 
                 text="Nicolaus Copernicus Николай Коперник Nikolaus Kopernikus Niccolò Copernico ニコラウス・コペルニクス Nicolás Copérnico Mikołaj Kopernik 尼古拉·哥白尼 "
@@ -183,6 +187,7 @@ const Home = () => {
                 bgColor='bg-nblue'
                 marqueeDuration={70000}
             />
+
         </Fragment>
     );
 }
